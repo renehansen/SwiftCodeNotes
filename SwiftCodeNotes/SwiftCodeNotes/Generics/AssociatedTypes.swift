@@ -1,7 +1,7 @@
 import Foundation
 
-final class TestAssociatedTypes {
-    public static func Test() {
+struct AssociatedTypesTester: Testable {
+    public func test() {
         let intContainer = IntContainer()
         intContainer.add(42)
         print("Int-value a index 0 = \(intContainer[0])")
@@ -13,7 +13,7 @@ final class TestAssociatedTypes {
 }
 
 protocol Container {
-    //conforming types will define what ElementType is
+    //conforming types will define the type of 'ElementType'
     associatedtype ElementType
     
     mutating func add(_ element: ElementType) //open for both structs and classes (TOOD RHA - move to protocols)

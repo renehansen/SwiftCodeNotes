@@ -13,12 +13,15 @@
 		A168090D1E6B210B00C418C7 /* ControlFlowAndPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809021E6B210A00C418C7 /* ControlFlowAndPatterns.swift */; };
 		A168090E1E6B210B00C418C7 /* Diverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809031E6B210A00C418C7 /* Diverse.swift */; };
 		A168090F1E6B210B00C418C7 /* EnumsAndTuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809041E6B210A00C418C7 /* EnumsAndTuples.swift */; };
-		A16809101E6B210B00C418C7 /* GenericsTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809051E6B210A00C418C7 /* GenericsTester.swift */; };
-		A16809111E6B210B00C418C7 /* MyAssociatedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809061E6B210A00C418C7 /* MyAssociatedTypes.swift */; };
-		A16809121E6B210B00C418C7 /* MyQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809071E6B210A00C418C7 /* MyQueue.swift */; };
 		A16809131E6B210B00C418C7 /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809081E6B210A00C418C7 /* Optionals.swift */; };
 		A16809141E6B210B00C418C7 /* ProtocolsTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809091E6B210A00C418C7 /* ProtocolsTester.swift */; };
 		A16809151E6B210B00C418C7 /* Tester.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168090A1E6B210A00C418C7 /* Tester.swift */; };
+		A168091B1E6B262700C418C7 /* GenericsTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809191E6B262700C418C7 /* GenericsTester.swift */; };
+		A168091C1E6B262700C418C7 /* AssociatedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168091A1E6B262700C418C7 /* AssociatedTypes.swift */; };
+		A168091E1E6B269F00C418C7 /* GenericsInheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168091D1E6B269F00C418C7 /* GenericsInheritance.swift */; };
+		A16809211E6B2FBF00C418C7 /* Testable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809201E6B2FBF00C418C7 /* Testable.swift */; };
+		A16809231E6B337800C418C7 /* MyQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809221E6B337800C418C7 /* MyQueue.swift */; };
+		A16809251E6B33AF00C418C7 /* GenericsFundamentals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809241E6B33AF00C418C7 /* GenericsFundamentals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,12 +44,15 @@
 		A16809021E6B210A00C418C7 /* ControlFlowAndPatterns.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFlowAndPatterns.swift; sourceTree = "<group>"; };
 		A16809031E6B210A00C418C7 /* Diverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diverse.swift; sourceTree = "<group>"; };
 		A16809041E6B210A00C418C7 /* EnumsAndTuples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumsAndTuples.swift; sourceTree = "<group>"; };
-		A16809051E6B210A00C418C7 /* GenericsTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericsTester.swift; sourceTree = "<group>"; };
-		A16809061E6B210A00C418C7 /* MyAssociatedTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAssociatedTypes.swift; sourceTree = "<group>"; };
-		A16809071E6B210A00C418C7 /* MyQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQueue.swift; sourceTree = "<group>"; };
 		A16809081E6B210A00C418C7 /* Optionals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optionals.swift; sourceTree = "<group>"; };
 		A16809091E6B210A00C418C7 /* ProtocolsTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolsTester.swift; sourceTree = "<group>"; };
 		A168090A1E6B210A00C418C7 /* Tester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tester.swift; sourceTree = "<group>"; };
+		A16809191E6B262700C418C7 /* GenericsTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericsTester.swift; sourceTree = "<group>"; };
+		A168091A1E6B262700C418C7 /* AssociatedTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedTypes.swift; sourceTree = "<group>"; };
+		A168091D1E6B269F00C418C7 /* GenericsInheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericsInheritance.swift; sourceTree = "<group>"; };
+		A16809201E6B2FBF00C418C7 /* Testable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testable.swift; sourceTree = "<group>"; };
+		A16809221E6B337800C418C7 /* MyQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQueue.swift; sourceTree = "<group>"; };
+		A16809241E6B33AF00C418C7 /* GenericsFundamentals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericsFundamentals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,20 +85,39 @@
 		A16808F81E6B205700C418C7 /* SwiftCodeNotes */ = {
 			isa = PBXGroup;
 			children = (
+				A168091F1E6B2FA100C418C7 /* Utils */,
+				A16809181E6B25CA00C418C7 /* Generics */,
 				A16809001E6B210A00C418C7 /* Classes.swift */,
 				A16809011E6B210A00C418C7 /* Collections.swift */,
 				A16809021E6B210A00C418C7 /* ControlFlowAndPatterns.swift */,
 				A16809031E6B210A00C418C7 /* Diverse.swift */,
 				A16809041E6B210A00C418C7 /* EnumsAndTuples.swift */,
-				A16809051E6B210A00C418C7 /* GenericsTester.swift */,
-				A16809061E6B210A00C418C7 /* MyAssociatedTypes.swift */,
-				A16809071E6B210A00C418C7 /* MyQueue.swift */,
 				A16809081E6B210A00C418C7 /* Optionals.swift */,
 				A16809091E6B210A00C418C7 /* ProtocolsTester.swift */,
 				A168090A1E6B210A00C418C7 /* Tester.swift */,
 				A16808F91E6B205700C418C7 /* main.swift */,
 			);
 			path = SwiftCodeNotes;
+			sourceTree = "<group>";
+		};
+		A16809181E6B25CA00C418C7 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				A16809221E6B337800C418C7 /* MyQueue.swift */,
+				A16809191E6B262700C418C7 /* GenericsTester.swift */,
+				A168091A1E6B262700C418C7 /* AssociatedTypes.swift */,
+				A168091D1E6B269F00C418C7 /* GenericsInheritance.swift */,
+				A16809241E6B33AF00C418C7 /* GenericsFundamentals.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		A168091F1E6B2FA100C418C7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A16809201E6B2FBF00C418C7 /* Testable.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,15 +179,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A168090D1E6B210B00C418C7 /* ControlFlowAndPatterns.swift in Sources */,
+				A168091C1E6B262700C418C7 /* AssociatedTypes.swift in Sources */,
 				A168090F1E6B210B00C418C7 /* EnumsAndTuples.swift in Sources */,
-				A16809121E6B210B00C418C7 /* MyQueue.swift in Sources */,
-				A16809101E6B210B00C418C7 /* GenericsTester.swift in Sources */,
+				A16809251E6B33AF00C418C7 /* GenericsFundamentals.swift in Sources */,
+				A16809211E6B2FBF00C418C7 /* Testable.swift in Sources */,
+				A168091E1E6B269F00C418C7 /* GenericsInheritance.swift in Sources */,
+				A16809231E6B337800C418C7 /* MyQueue.swift in Sources */,
 				A168090C1E6B210A00C418C7 /* Collections.swift in Sources */,
 				A16809131E6B210B00C418C7 /* Optionals.swift in Sources */,
 				A16809151E6B210B00C418C7 /* Tester.swift in Sources */,
 				A168090B1E6B210A00C418C7 /* Classes.swift in Sources */,
 				A16809141E6B210B00C418C7 /* ProtocolsTester.swift in Sources */,
-				A16809111E6B210B00C418C7 /* MyAssociatedTypes.swift in Sources */,
+				A168091B1E6B262700C418C7 /* GenericsTester.swift in Sources */,
 				A16808FA1E6B205700C418C7 /* main.swift in Sources */,
 				A168090E1E6B210B00C418C7 /* Diverse.swift in Sources */,
 			);

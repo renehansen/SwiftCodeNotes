@@ -1,6 +1,6 @@
 import Foundation
 
-public class MyQueue<T> {
+public class GenericQueue<T> {
     fileprivate var elements = [T]()
     
     public func enqueue(_ element: T) {
@@ -19,7 +19,7 @@ public class MyQueue<T> {
     }
 }
 
-extension MyQueue {
+extension GenericQueue {
     //We have access to the type parameter in the extension
     public var second: T? {
         if elements.count >= 2 {

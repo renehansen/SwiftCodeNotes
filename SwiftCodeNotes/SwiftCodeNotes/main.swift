@@ -5,3 +5,8 @@ print("Hello, World!")
 //Collections.test()
 //EnumsAndTuples.test()
 //ControlFlowAndPatterns.test()
+
+let testsToRun: [Testable] = [
+    GenericsTester()
+]
+testsToRun.forEach{ $0.test() }
