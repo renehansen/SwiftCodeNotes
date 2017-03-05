@@ -9,6 +9,15 @@ struct AssociatedTypesTester: Testable {
         var stringContainer = GenericContainer<String>() //TODO RHA (move explation to structs: Necessary to specify as var, because we are using a mutating function
         stringContainer.add("Hello World")
         print("String-value at index 0 = \(stringContainer[0])")
+        
+        let firstValue = 10, secondValue = 20
+        var firstContainer = GenericContainer<Int>()
+        firstContainer.add(firstValue)
+        firstContainer.add(secondValue)
+        var secondContainer = GenericContainer<Int>()
+        secondContainer.add(firstValue)
+        secondContainer.add(secondValue)
+        print("Are containers equal element-wise? \(firstContainer.matchesAllItemsWith(secondContainer))")
     }
 }
 
@@ -24,7 +33,6 @@ protocol Container {
 }
 
 class IntContainer: Container {
-    // conformance to the Container protocol
     //The typealias is actually redundant as the compiler can infer the type from the implementation of add() and subscript()
     typealias ElementType = Int
     
@@ -68,8 +76,14 @@ struct GenericContainer<T>: Container {
 }
 
 // - MARK: Generic Where clauses
+extension Array where Element: Equatable {
+    
+    func doSomething() {
+        
+    }
+}
 
-func allItemsMatch<C1: Container, C2: Container>
+fileprivate func allItemsMatch<C1: Container, C2: Container>
     (_ someContainer: C1, _ anotherContainer: C2) -> Bool
     where C1.ElementType == C2.ElementType, C1.ElementType: Equatable {
         
@@ -83,3 +97,11 @@ func allItemsMatch<C1: Container, C2: Container>
         }
         return true
 }
+
+//Ensure both containers' type are equal and adopts Equatable
+extension Container where ElementType: Equatable {
+    func matchesAllItemsWith<C: Container>(_ other: C) -> Bool where C.ElementType == Self.ElementType {
+            return allItemsMatch(self, other)
+    }
+}
+

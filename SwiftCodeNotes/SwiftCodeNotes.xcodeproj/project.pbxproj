@@ -22,6 +22,9 @@
 		A16809211E6B2FBF00C418C7 /* Testable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809201E6B2FBF00C418C7 /* Testable.swift */; };
 		A16809231E6B337800C418C7 /* MyQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809221E6B337800C418C7 /* MyQueue.swift */; };
 		A16809251E6B33AF00C418C7 /* GenericsFundamentals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809241E6B33AF00C418C7 /* GenericsFundamentals.swift */; };
+		A16809281E6B5BBD00C418C7 /* CollectionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809271E6B5BBD00C418C7 /* CollectionProtocols.swift */; };
+		A168092A1E6B5C3100C418C7 /* IterableCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809291E6B5C3100C418C7 /* IterableCollections.swift */; };
+		A168094C1E6C48CE00C418C7 /* CollectionsTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168094B1E6C48CE00C418C7 /* CollectionsTester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +56,9 @@
 		A16809201E6B2FBF00C418C7 /* Testable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testable.swift; sourceTree = "<group>"; };
 		A16809221E6B337800C418C7 /* MyQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQueue.swift; sourceTree = "<group>"; };
 		A16809241E6B33AF00C418C7 /* GenericsFundamentals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericsFundamentals.swift; sourceTree = "<group>"; };
+		A16809271E6B5BBD00C418C7 /* CollectionProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionProtocols.swift; sourceTree = "<group>"; };
+		A16809291E6B5C3100C418C7 /* IterableCollections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IterableCollections.swift; sourceTree = "<group>"; };
+		A168094B1E6C48CE00C418C7 /* CollectionsTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionsTester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 		A16808F81E6B205700C418C7 /* SwiftCodeNotes */ = {
 			isa = PBXGroup;
 			children = (
+				A16809261E6B5B9E00C418C7 /* Collections */,
 				A168091F1E6B2FA100C418C7 /* Utils */,
 				A16809181E6B25CA00C418C7 /* Generics */,
 				A16809001E6B210A00C418C7 /* Classes.swift */,
@@ -118,6 +125,16 @@
 				A16809201E6B2FBF00C418C7 /* Testable.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		A16809261E6B5B9E00C418C7 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				A16809271E6B5BBD00C418C7 /* CollectionProtocols.swift */,
+				A16809291E6B5C3100C418C7 /* IterableCollections.swift */,
+				A168094B1E6C48CE00C418C7 /* CollectionsTester.swift */,
+			);
+			path = Collections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,13 +196,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A168090D1E6B210B00C418C7 /* ControlFlowAndPatterns.swift in Sources */,
+				A168092A1E6B5C3100C418C7 /* IterableCollections.swift in Sources */,
 				A168091C1E6B262700C418C7 /* AssociatedTypes.swift in Sources */,
 				A168090F1E6B210B00C418C7 /* EnumsAndTuples.swift in Sources */,
 				A16809251E6B33AF00C418C7 /* GenericsFundamentals.swift in Sources */,
 				A16809211E6B2FBF00C418C7 /* Testable.swift in Sources */,
+				A16809281E6B5BBD00C418C7 /* CollectionProtocols.swift in Sources */,
 				A168091E1E6B269F00C418C7 /* GenericsInheritance.swift in Sources */,
 				A16809231E6B337800C418C7 /* MyQueue.swift in Sources */,
 				A168090C1E6B210A00C418C7 /* Collections.swift in Sources */,
+				A168094C1E6C48CE00C418C7 /* CollectionsTester.swift in Sources */,
 				A16809131E6B210B00C418C7 /* Optionals.swift in Sources */,
 				A16809151E6B210B00C418C7 /* Tester.swift in Sources */,
 				A168090B1E6B210A00C418C7 /* Classes.swift in Sources */,

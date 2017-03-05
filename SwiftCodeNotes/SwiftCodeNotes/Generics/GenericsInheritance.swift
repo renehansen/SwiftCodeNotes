@@ -16,7 +16,7 @@ struct GenericsInheritanceTester: Testable {
         let semiClosedPair = SemiClosedPair<Double>(first: 17.5, second: "Hello World")
         print("Closed generic type w. first = \(semiClosedPair.first) and second = \(semiClosedPair.second)")
         
-        let triple = TripleWithClosedParent(first: 42, second: 5.75, third: "Hello World")
+        let triple = TripleWithClosedParent(first: 42, second: 5.75, third: 3.5)
         print("Triple which closes supertype and introduces yet another type parameter w. first = \(triple.first), second = \(triple.second), and third=\(triple.third)")        
     }
 }
@@ -42,8 +42,8 @@ class SemiClosedPair<T1>: Pair<T1, String> {
 
 }
 
-//Closes supertype and introduces yet another type parameter
-class TripleWithClosedParent<T3>: Pair<Int, Double> {
+//Closes supertype and introduces yet another type parameter with a where clause
+class TripleWithClosedParent<T3>: Pair<Int, Double> where T3: SignedNumber {
     var third: T3
     
     init (first: Int, second: Double, third: T3) {

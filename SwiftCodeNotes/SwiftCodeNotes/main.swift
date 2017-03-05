@@ -7,6 +7,7 @@ print("Hello, World!")
 //ControlFlowAndPatterns.test()
 
 let testsToRun: [Testable] = [
-    GenericsTester()
+    GenericsTester(),
+    CollectionsTester(),
 ]
 testsToRun.forEach{ $0.test() }
