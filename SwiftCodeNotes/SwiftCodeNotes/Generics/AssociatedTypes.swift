@@ -6,18 +6,23 @@ struct AssociatedTypesTester: Testable {
         intContainer.add(42)
         print("Int-value a index 0 = \(intContainer[0])")
         
-        var stringContainer = GenericContainer<String>() //TODO RHA (move explation to structs: Necessary to specify as var, because we are using a mutating function
+        var stringContainer = GenericContainer<String>()
         stringContainer.add("Hello World")
         print("String-value at index 0 = \(stringContainer[0])")
         
-        let firstValue = 10, secondValue = 20
+        let firstValue = 10, secondValue = 20, thirdValue = 30
         var firstContainer = GenericContainer<Int>()
         firstContainer.add(firstValue)
         firstContainer.add(secondValue)
+        firstContainer.add(thirdValue)
         var secondContainer = GenericContainer<Int>()
         secondContainer.add(firstValue)
         secondContainer.add(secondValue)
+        secondContainer.add(thirdValue)
         print("Are containers equal element-wise? \(firstContainer.matchesAllItemsWith(secondContainer))")
+        
+        firstContainer.adultNumbers()
+        //stringContainer.adultNumbers() No such method due to where clause; only for SignedNumber elements
     }
 }
 
@@ -80,6 +85,12 @@ extension Array where Element: Equatable {
     
     func doSomething() {
         
+    }
+}
+
+extension GenericContainer where T: SignedNumber {
+    func adultNumbers() -> [T] {
+        return elements.filter{ $0 > 18 }
     }
 }
 
