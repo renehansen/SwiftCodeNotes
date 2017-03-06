@@ -25,6 +25,8 @@
 		A16809281E6B5BBD00C418C7 /* CollectionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809271E6B5BBD00C418C7 /* CollectionProtocols.swift */; };
 		A168092A1E6B5C3100C418C7 /* IterableCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809291E6B5C3100C418C7 /* IterableCollections.swift */; };
 		A168094C1E6C48CE00C418C7 /* CollectionsTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168094B1E6C48CE00C418C7 /* CollectionsTester.swift */; };
+		A168094F1E6C789900C418C7 /* MonadFundamentals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168094E1E6C789900C418C7 /* MonadFundamentals.swift */; };
+		A16809511E6C7BFC00C418C7 /* PATs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16809501E6C7BFC00C418C7 /* PATs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +61,8 @@
 		A16809271E6B5BBD00C418C7 /* CollectionProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionProtocols.swift; sourceTree = "<group>"; };
 		A16809291E6B5C3100C418C7 /* IterableCollections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IterableCollections.swift; sourceTree = "<group>"; };
 		A168094B1E6C48CE00C418C7 /* CollectionsTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionsTester.swift; sourceTree = "<group>"; };
+		A168094E1E6C789900C418C7 /* MonadFundamentals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonadFundamentals.swift; sourceTree = "<group>"; };
+		A16809501E6C7BFC00C418C7 /* PATs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PATs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 		A16808F81E6B205700C418C7 /* SwiftCodeNotes */ = {
 			isa = PBXGroup;
 			children = (
+				A168094D1E6C787E00C418C7 /* Monads */,
 				A16809261E6B5B9E00C418C7 /* Collections */,
 				A168091F1E6B2FA100C418C7 /* Utils */,
 				A16809181E6B25CA00C418C7 /* Generics */,
@@ -115,6 +120,7 @@
 				A168091A1E6B262700C418C7 /* AssociatedTypes.swift */,
 				A168091D1E6B269F00C418C7 /* GenericsInheritance.swift */,
 				A16809241E6B33AF00C418C7 /* GenericsFundamentals.swift */,
+				A16809501E6C7BFC00C418C7 /* PATs.swift */,
 			);
 			path = Generics;
 			sourceTree = "<group>";
@@ -135,6 +141,14 @@
 				A168094B1E6C48CE00C418C7 /* CollectionsTester.swift */,
 			);
 			path = Collections;
+			sourceTree = "<group>";
+		};
+		A168094D1E6C787E00C418C7 /* Monads */ = {
+			isa = PBXGroup;
+			children = (
+				A168094E1E6C789900C418C7 /* MonadFundamentals.swift */,
+			);
+			path = Monads;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,12 +218,14 @@
 				A16809281E6B5BBD00C418C7 /* CollectionProtocols.swift in Sources */,
 				A168091E1E6B269F00C418C7 /* GenericsInheritance.swift in Sources */,
 				A16809231E6B337800C418C7 /* GenericQueue.swift in Sources */,
+				A16809511E6C7BFC00C418C7 /* PATs.swift in Sources */,
 				A168090C1E6B210A00C418C7 /* Collections.swift in Sources */,
 				A168094C1E6C48CE00C418C7 /* CollectionsTester.swift in Sources */,
 				A16809131E6B210B00C418C7 /* Optionals.swift in Sources */,
 				A16809151E6B210B00C418C7 /* Tester.swift in Sources */,
 				A168090B1E6B210A00C418C7 /* Classes.swift in Sources */,
 				A16809141E6B210B00C418C7 /* ProtocolsTester.swift in Sources */,
+				A168094F1E6C789900C418C7 /* MonadFundamentals.swift in Sources */,
 				A168091B1E6B262700C418C7 /* GenericsTester.swift in Sources */,
 				A16808FA1E6B205700C418C7 /* main.swift in Sources */,
 				A168090E1E6B210B00C418C7 /* Diverse.swift in Sources */,
